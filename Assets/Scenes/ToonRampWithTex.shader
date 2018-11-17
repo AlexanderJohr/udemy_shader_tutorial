@@ -1,8 +1,8 @@
 ﻿Shader "MyShaders/ToonRampWithTex" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
-		_Ramp ("Ramp Tex", 2D) = "white" {}
-		_Tex("Tex", 2D) = "white" {}
+		_Ramp ("Ramp Tex", 2D) = "black" {}
+		_Tex("Tex", 2D) = "black" {}
 	}
 	SubShader {
 

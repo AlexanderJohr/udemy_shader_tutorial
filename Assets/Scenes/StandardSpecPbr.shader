@@ -1,7 +1,7 @@
 ﻿Shader "MyShaders/StandardSpecPbr" {
 	Properties {
 
-		_Smoothness("Smoothness Tex", 2D) = "white" {}
+		_Smoothness("Smoothness Tex", 2D) = "black" {}
 		_Specular ("Specular", Color) = (1,1,1,1)
 		_Color ("Color", Color) = (1,1,1,1)
 		

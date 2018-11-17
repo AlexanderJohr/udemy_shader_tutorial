@@ -1,6 +1,6 @@
 ﻿Shader "MyShaders/StripedShaderChallenge1" {
 	Properties {
-		_Tex ("Texture", 2D) = "white" {}
+		_Tex ("Texture", 2D) = "black" {}
 		_StripeSize ("Stripe Size", Range(0,100)) = 0.0
 	}
 	SubShader {

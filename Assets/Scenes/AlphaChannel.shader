@@ -1,6 +1,6 @@
 ﻿Shader "MyShaders/AlphaChannel" {
 	Properties {
-		_MainTex ("Albedo (RGB)", 2D) = "white" {}
+		_MainTex ("Albedo (RGB)", 2D) = "black" {}
 	}
 	SubShader {
 

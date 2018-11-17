@@ -1,8 +1,8 @@
 ﻿Shader "MyShaders/NormalMap" {
 	Properties {
 
-		_Tex ("Tex", 2D) = "white" {}
-		_NormalMap("Normal Map", 2D) = "white" {}
+		_Tex ("Tex", 2D) = "black" {}
+		_NormalMap("Normal Map", 2D) = "black" {}
 		_NormalRange("Normal Range", Range(0,10)) = 0.0
 
 	}

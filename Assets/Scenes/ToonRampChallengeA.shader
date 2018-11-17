@@ -1,7 +1,7 @@
 ﻿Shader "MyShaders/ToonRampChallengeA" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
-		_Ramp ("Ramp Tex", 2D) = "white" {}
+		_Ramp ("Ramp Tex", 2D) = "black" {}
 	}
 	SubShader {
 

@@ -1,7 +1,7 @@
 ﻿Shader "MyShaders/StandardPbr2" {
 	Properties {
 
-		_Smoothness("Smoothness Tex", 2D) = "white" {}
+		_Smoothness("Smoothness Tex", 2D) = "black" {}
 		_Metallic ("Metallic", Color) = (1,1,1,1)
 		_Color ("Color", Color) = (1,1,1,1)
 		

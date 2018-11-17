@@ -2,7 +2,7 @@
 	Properties{
 		_myColor("MyColor", Color) = (1,1,1,1)
 		_myEmission("MyEmission", Color) = (1,1,1,1)
-		_NormalMap("MyEmission", 2D) = "white" {}
+		_NormalMap("MyEmission", 2D) = "black" {}
 
 	}
 		SubShader{

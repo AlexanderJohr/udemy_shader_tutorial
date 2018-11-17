@@ -1,7 +1,7 @@
 ﻿Shader "MyShaders/SecondSparkle" {
 	Properties{
 		_Color ("Color", Color) = (0,0,0,0)
-		_RampTex ("Ramp Tex", 2D) = "white" {}
+		_RampTex ("Ramp Tex", 2D) = "black" {}
 	}
 	SubShader{
 

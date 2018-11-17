@@ -1,8 +1,8 @@
 ﻿Shader "MyShaders/TwoTex" {
 	Properties {
-		_Tex1("Tex1", 2D) = "white" {}
-		_Tex2("Tex2", 2D) = "white" {}
-		_TexNormal("TexNormal", 2D) = "white" {}
+		_Tex1("Tex1", 2D) = "black" {}
+		_Tex2("Tex2", 2D) = "black" {}
+		_TexNormal("TexNormal", 2D) = "black" {}
 		_RangeNormal("RangeNormal", Range(0,5)) = 0.0
 
 	}
