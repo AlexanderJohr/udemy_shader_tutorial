@@ -8,7 +8,7 @@
 				"Queue" = "Geometry-1"
 			}
 			ColorMask 0
-
+				ZWrite off
 
 
 		Stencil{
