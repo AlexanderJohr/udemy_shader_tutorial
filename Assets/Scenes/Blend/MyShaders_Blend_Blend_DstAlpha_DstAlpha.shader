@@ -5,7 +5,7 @@ Shader "MyShaders/Blend/Blend_DstAlpha_DstAlpha" {
                 _MainTex("Tex", 2D) = "black" { }
             }
             SubShader {
-                Tags { "RenderType" = "Opaque" }
+                Tags { "Queue" = "Transparent" }
                 Pass{
                     Blend DstAlpha DstAlpha
                     SetTexture[_MainTex]{ combine texture }
